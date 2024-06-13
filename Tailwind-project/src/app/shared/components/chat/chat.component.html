@@ -1,0 +1,12 @@
+<div
+  class=" mt-4 p-6 max-w-sm mx-auto bg-white rounded-xl shadow-2xl flex items-center space-x-4 "
+>
+  <div class="shrink-0">
+    <img class="h-12 w-12 rounded-full" src="{{ image }}" alt="OeChat" />
+  </div>
+  <div class=" hover:text-white">
+    <div class="text-xl font-medium text-red-900">OeChat.pe</div>
+    <p class="text-slate-500">Oe, tienes un nuevo mensaje!</p>
+    <app-button (click)="changeToDarkMode()" text="{{text}}"></app-button>
+  </div>
+</div>
